@@ -1,0 +1,714 @@
+.wonder {
+    
+    width: 100%;
+    height: 30px;
+    background-color: rgb(1, 1, 71);
+    
+    margin-top: 10px    ;
+}
+body {
+    margin: 0;
+}
+.container {
+position: fixed;
+width: 100%;
+margin-top: -10px;
+z-index: 3;
+}
+#grab {
+    width: 200px;
+    margin-left: 500px;
+    height: 30px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+
+
+}
+#exp {
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+
+    margin-left: 10px;
+}
+#p {
+    float: right;
+    color: yellow ;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logoback {
+    
+    width: 100%;
+    height: 100px;
+    background-color:white;
+}
+#logo {
+    float: left;
+    width: 200px;
+    height: 95px;
+    margin-left: 25px;
+}
+#park {
+    width: 100px;
+    height: 50px;
+    margin-left: 60px;
+    float: left;
+    border: 0px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: 15px;
+    margin-top: 30px;
+    font-weight: bold;
+    color: black;
+    
+}
+#parks {
+    width: 100px;
+    height: 50px;
+}
+#list {
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: 15px;
+    margin-top: 30px;
+    margin-left: 20px;
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#book {
+    border: 2px;
+
+    border-color:rgb(0, 0, 0) ;
+    background-color: rgb(1, 1, 71);
+    width: 200px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: yellow;
+    font-size: 18px;
+    font-weight: bolder;
+    transition: 0.5s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#book:hover {
+    background-color: white;
+    color: black;
+
+    border-color: black;
+}
+.secondbar {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(1, 1, 71);
+    text-align: center;
+    
+}
+#list2 {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 1.6s;
+}
+#firstimg {
+    margin-top: 165px;
+    width: 100%;
+    height: 490px;
+
+}
+#wk {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+      font-size: 40px;
+    letter-spacing: 5px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+#happy {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 10px;
+    color:  rgb(1, 1, 71);
+    font-weight: bold;
+}
+#list2:hover {
+    color: yellow;
+    
+}
+#happy2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.ticketdiv {
+    float: left;
+    margin-top: 70px;
+    margin-left: 250px;
+    width: 200px;
+    height: 150px;
+    background-color:  rgb(1, 1, 71);
+    transition: 0.5s;
+    transition: 0,5s;
+    
+}
+.ticketdiv:hover {
+    background-color: white;
+    color: black;
+}
+#ticketlogo {
+    margin-left: 33px;
+    margin-top: 20px;
+    width: 130px;
+    height: 90px;
+    color: white;
+}
+
+.ticket {
+    transition: 0.5s;
+    text-decoration: none;
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+}
+.ticket:hover {
+    color: black;
+}
+.park {
+    transition: 0.5s;
+    float: left;
+    margin-left: 5px;
+    width: 200px;
+    height: 150px;
+    background-color:  rgb(253, 228, 4);
+    margin-top: 70px;
+}
+.park:hover {
+    background-color: white;
+    border: black;
+
+}
+#car {
+    margin-left: 33px;
+    margin-top: 20px;
+    width: 130px;
+    height: 90px;
+}
+.parktx {
+    transition: 0.5s;
+    text-decoration: none;
+    margin-left: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+
+}
+.location {
+    float: left;
+    margin-top: 70px;
+    margin-left: 5px;
+    width: 200px;
+    height: 150px;
+    background-color:  rgb(1, 1, 71);
+    transition: 0.5s;
+}
+.location:hover {
+    background-color:  rgb(255, 255, 255);
+}
+#map {
+    margin-left: 55px;
+    margin-top: 20px;
+    width: 80px;
+    height: 90px;
+}
+#maps {
+    transition: 0.5s;
+    text-decoration: none;
+    margin-left: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+#maps:hover {
+    color: black;
+}
+.faq {
+    float: left;
+    margin-top: 70px;
+    margin-left: 5px;
+    width: 200px;
+    height: 150px;
+    background-color:   rgb(253, 228, 4);
+    transition: 0.5s;
+}
+.faq:hover {
+    background-color:  rgb(255, 255, 255);
+}
+#faqs {
+    margin-left: 45px;
+    margin-top: 20px;
+    width: 110px;
+    height: 90px;
+}
+#faqss {
+    transition: 0.5s;
+    text-decoration: none;
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}
+#faaqss:hover {
+    color: black;
+}
+#tt {
+    
+    width: 100%;
+    height: 600px;
+    background-color: rgb(218, 255, 243);
+    margin-top: 300px;
+
+}
+.rr {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+    color: rgb(1, 1, 71);
+    font-size: 30px;
+}
+.fast {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 50px;
+    float: left;
+
+}
+#ff {
+    height:0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(1, 1, 71) ;
+    font-size: 25px;
+}
+#ft {
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(1, 1, 71) ;
+    
+}.ezpay {
+    float: left;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#ez {
+    color:  rgb(1, 1, 71) ;
+    font-size: 25px;
+    height: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#ezp {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(1, 1, 71) ;
+}
+.lock {
+    margin-left: 300px;
+    float: left;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#locks {
+    color:  rgb(1, 1, 71) ;
+    font-size: 25px;
+    height: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+#lockss {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(1, 1, 71) ;
+}
+#we {
+    margin-top: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(1, 1, 71);
+}
+#know {
+    margin-left: 600px;
+    padding-top: 8px;
+    height: 30px;
+    width: 130px;
+    background-color: rgb(1, 1, 71);
+    text-decoration: none;
+    color: yellow;
+    text-align: center;
+    transition: 0.4s;
+}
+#know:hover {
+    background-color: white;
+    
+}
+#knowmore {
+    padding-top: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: yellow;
+    text-decoration: none;
+font-size: 15px;
+}
+#knowmore:hover {
+    color: black;
+}
+.videoout {
+    width: 100%;
+    height: 550px;
+    background-color: #f4d739;
+}
+#video  {
+    object-fit: cover;
+    margin-left: 280px;
+    border-radius: 8px;
+    margin-top: 100px;
+    height: 400px;
+    width: 800px;
+}
+#foodsection {
+    position: relative;
+}
+#backfood {
+    width: 100%;
+    height: 550px;
+}
+#fantastic {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    font-size: 30px;
+    color: rgb(1, 1, 71);
+    top: 180px;
+    left: 150px;
+    font-weight: bolder;
+}
+#knowmore2 {
+    position: absolute;
+    top: 290px;
+    left: 256px;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    color: yellow;
+    text-decoration: none;
+    border: 4px;
+    border-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(1, 1, 71) ;
+}
+#knowmore2:hover {
+    background-color: white;
+    color: black;
+    border: 5px;
+    border-color: black;
+
+}
+#burger {
+    object-fit: cover;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 130px;
+    right: 410px;
+}
+#cookies {
+    
+    object-fit: cover;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 130px;
+    right: 90px;
+
+} #ride {
+    width: 50%;
+    height: 450px;
+    float: left;
+}
+#blue {
+    background-color: rgb(1, 1, 71);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: left;
+    text-align: left;
+    color: white;
+    height: 450px;
+    width: 50%;
+
+}
+#simple {
+    margin-top: 120px;
+    margin-left: 100px;
+}
+#ul {
+    margin-left: 100px;
+}
+
+.second {
+    float: left;
+    margin-top: 0px;
+    width: 50%;
+    height: 450px;
+    background-color: #f4d739;
+    position: relative;
+    
+}
+#yellow {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-left: 100px;
+    padding-top: 90px;
+    color: rgb(1, 1, 71);
+}   
+#to {
+    margin-left: 100px;
+    margin-left: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.know3 {
+    position: absolute;
+    top: 300px;
+    left: 250px;
+}
+#know3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(1, 1, 71);
+    color: yellow;
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#know3:hover {
+    background-color: white;
+    color: black;
+}
+#lastimg {
+    width: 50%;
+    height: 450px;
+    float: left;
+}
+#rrr {
+    width: 100%;
+    height: 500px;
+}
+.lastt {
+    position: relative;
+    background-image: url(https://res.cloudinary.com/simplotel/image/upload/q_90,w_1920,dpr_auto,f_auto,fl_progressive,c_limit/wonderla-amusement-parks-resort/wonderlafooter4_eprqln);
+    width: 100%;
+    height: 500px;
+    margin-top: 900px;
+    object-fit: cover;
+    align-items: center;
+}
+.f1 {
+    height: 0px;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.f2 {
+    
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.f3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: 200px;
+    margin-top: 20px;float: left;
+
+}
+#mail {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.mail {
+    margin-left: 
+    10px;
+    margin-top: 20px;
+    float: left;
+}
+.f4 {
+    margin-top: 20px;
+    margin-left: 50px;
+    color: white;
+    float: left;
+}
+#mail2 {
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    float: left;
+}
+.f5 {
+    margin-top: 20px;
+    margin-left: 50px;
+    color: white;
+    float: left;
+}
+#phone {
+    float: left;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.f6 {color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+.phone2 {
+    float: right;
+}
+#phone2 {
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.get {
+    margin-top: 75px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 0px;
+}
+#trip {
+
+    margin-left: 3px;
+    margin-top: 5px;
+    width: 20px;
+    height: 15px;
+    
+}
+.touch {
+    float: left;
+    margin-left: 560px;
+    width: 26px;
+    height: 25px;
+    background-color: white;
+}
+.touch:hover {
+    background-color: green;
+}
+.face {
+    margin-left: 25px;
+    float: left;
+    width: 26px;
+    height: 25px;
+    color: white;
+    background-color: white;
+    
+}
+.face:hover {
+    background-color: rgb(59, 59, 238);
+}
+#facebook {
+    width: 26px;
+    height: 20  px;
+}
+.twi {
+    margin-left: 25px;
+    float: left;
+    width: 26px;
+    height: 25px;
+    color: white;
+    background-color: white;
+    
+}
+.twi:hover {
+    background-color: blue;
+}
+#twit {
+    width: 26px;
+    height: 20  px;
+}
+.you {
+    margin-left: 25px;
+    float: left;
+    width: 26px;
+    height: 25px;
+    color: white;
+    background-color: white;
+}
+.you:hover {
+    background-color: red;
+}
+#you {
+    width: 26px;
+    height: 20  px;
+}
+.in {
+    margin-left: 25px;
+    float: left;
+    width: 26px;
+    height: 25px;
+    color: white;
+    background-color: white;
+}
+.in:hover {
+    background-color: orange;
+}
+#in {
+    width: 26px;
+    height: 20  px;
+}
+#aa {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    margin-left: 46px;
+    text-decoration: none;
+}
+#aa:hover {
+    text-decoration: underline
+    ;
+}
+.copy {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: small;
+    margin-top: 40px;
+}
+
+
+
